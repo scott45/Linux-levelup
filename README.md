@@ -28,7 +28,8 @@ Introduction to the LPI Linux essentials certification (010 - 150) (by David Cli
 - used in majority of cloud VMS and famous docker built on linux
 
 ***Linux distributions types***
-Popular ones;
+
+***Popular ones;***
 - Android. for mobile.
 - Red Heart Enterprise Linux (RHEL). it's an enterprise distros.
 - CentOS. this is the community rebuild for RHEL.
