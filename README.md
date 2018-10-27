@@ -21,27 +21,27 @@ Introduction to the LPI Linux essentials certification (010 - 150) (by David Cli
 
 ## Introduction to Linux Operating system;
 
-Advantages of linux 
+***Advantages of linux***
 - Cheaper to own (open source)
 - More secure (limited privileges by default, diverse file system architectures, open source thus more eyeballs and helping hands)
 - Fewer malware threats 
 - used in majority of cloud VMS and famous docker built on linux
 
-Linux distributions types 
+***Linux distributions types***
 Popular ones;
 - Android. for mobile.
 - Red Heart Enterprise Linux (RHEL). it's an enterprise distros.
 - CentOS. this is the community rebuild for RHEL.
 - Ubuntu. all round.
 
-others;
+***others;***
 - kali. this distribution is optimised and enhanced for security.
 - Mint. recommended for easy personal use with it’s desktop.
 - SUSE - OpenSUSE
 - Scientific Linux. this is optimised for science and advanced math.
 - Raspbian. meant to be embedded in IOT devices / mini architectures. 
 
-Package managers;
+***Package managers;***
 -  **apt-get** for online packages and **dpkg** on local packages for Ubuntu, debian, mint.
 -  **yum** for online packages and **RPM** for local packages access on Redhat, Fedora, Amazon linux.
 
