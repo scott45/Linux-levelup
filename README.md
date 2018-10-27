@@ -386,6 +386,7 @@ g=rx — allows only the group to read and execute (not write)
 ```
 
 ***file***
+
 code | Numerical value| Permissions
 ------------ | ------------- | ------------- 
 -rw------- |600 | only owner with read and write permissions.
@@ -397,6 +398,7 @@ code | Numerical value| Permissions
 -rwxrwxrwx | 777 | all can read, write and execute to the file.
 
 ***directory***
+
 code | Numerical value| Permissions
 ------------ | ------------- | ------------- 
 drwx------ |700 | only user with read and write permissions in this directory.
