@@ -78,6 +78,18 @@ lsb_release -a Check linux distribution system.
  
  ```
 
+***Networking***
+```
+ip route show - route
+ip addr show - ip config
+ipv6 / ipv4 128 bit and 32 bit addresses
+netstat -i  - interface info
+netstat -r - route info
+DNS - map ip figures to human readable language
+host name - ip to dns 
+nslookup - check IP address that's mapped to a domain name
+```
+
 ***Text and file manipulation***
 
 ```
@@ -224,12 +236,15 @@ lsb_release -a Check linux distribution system.
 
 ## Power of the Command line;
 
-globing 
+***Globing*** 
+```
 cp file*  - all instances 
 file? - single instance  
 rm file* - deletes all files starting with file
+```
 
-archiving 
+***archiving*** 
+```
 .tar - archive
 .zip - zipped with zip algorithm
 
@@ -237,26 +252,17 @@ tar xzf file.tar.gz
 x - extract files from archive
 z - compressed or zipped
 f - file follows
+```
 
-Bash Scripting 
+***Bash Scripting*** 
 - command line syntax and simple design  as prerequisite
 - functional in nature (inputs, variables and control structures)
 - shebang (#!/bin/bash) binary bash
 
-list packages
+***list packages***
  yum list 
  apt list 
  dpkg list
-
-Networking 
-ip route show - route
-ip addr show - ip config
-ipv6 / ipv4 128 bit and 32 bit addresses
-netstat -i  - interface info
-netstat -r - route info
-DNS - map ip figures to human readable language
-host name - ip to dns 
-nslookup - check IP address that's mapped to a domain name
 
 ## Security and file permissions 
 
