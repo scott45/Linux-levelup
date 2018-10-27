@@ -53,27 +53,33 @@ lsb_release -a Check linux distribution system.
 
 ***Monitoring and networking***
 
-vmstat to get memory details.
+```
 
-vmstat -S M to see memory usage in mb's.
+- vmstat to get memory details.
 
-vmstat -a to see active / inactive memory.
+- vmstat -S M to see memory usage in mb's.
 
-uptime to see system load (cpu) 1min, 5mins, 15mins.
+- vmstat -a to see active / inactive memory.
 
-who to see logged in users and consoles (names and tty.
+- uptime to see system load (cpu) 1min, 5mins, 15mins.
 
-whoami - show current logged in user. (name)
+- who to see logged in users and consoles (names and tty.
 
-top to display and update sorted info about processes
+- whoami - show current logged in user. (name)
 
-netstat -alt to see listening tcp ports.
+- top to display and update sorted info about processes
 
-netstat -alu to see listening udp ports.
+- netstat -alt to see listening tcp ports.
 
-netstat -alx to see listening sockets.
+- netstat -alu to see listening udp ports.
+
+- netstat -alx to see listening sockets.
+ 
+ ```
 
 ***Text and file manipulation***
+
+```
 
 - grep to filter.
 
@@ -85,67 +91,73 @@ netstat -alx to see listening sockets.
 
 - tail - last 10 lines of a file.
 
+```
+
 ***Cmd admin***
 
-mkdir dir_name - create a new directory
+```
 
-cd dir_name - change to a directory
+- mkdir dir_name - create a new directory
 
-touch file_name - create a new file
+- cd dir_name - change to a directory
 
-vim file_name- open a file to either view or edit with vim
+- touch file_name - create a new file
 
-mv old_file_name new_file_name - rename a file
+- vim file_name- open a file to either view or edit with vim
 
-cp old_file_name new_file_name - copy content to a file
+- mv old_file_name new_file_name - rename a file
 
-date > file_name  - append to a file
+- cp old_file_name new_file_name - copy content to a file
 
-date >> file_name  - Overwrite a file
+- date > file_name  - append to a file
 
-ps  - see running processes
+- date >> file_name  - Overwrite a file
 
-ps aux | grep process_name - filter a particular running process 
+- ps  - see running processes
 
-df -h  - check disk space usage
+- ps aux | grep process_name - filter a particular running process 
 
-date - check date (day, time, year, timezone)
+- df -h  - check disk space usage
 
-time - check current time
+- date - check date (day, time, year, timezone)
 
-cd .. - Go back a single step to previous directory
+- time - check current time
 
-cd ~  - go to home directory
+- cd .. - Go back a single step to previous directory
 
-man 'command' - checkout details about a manual page.
+- cd ~  - go to home directory
 
-sort - organizing output in order
+- man 'command' - checkout details about a manual page.
 
-sort -r  - organize output in reverse order
+- sort - organizing output in order
 
-ls  - directory listings
+- sort -r  - organize output in reverse order
 
-rm - delete
+- ls  - directory listings
 
-rmdir - delete dir
+- rm - delete
 
-find - locate files
+- rmdir - delete dir
 
-grep - filter
+- find - locate files
 
-cat /etc/shells - List of available shells on the system
+- grep - filter
 
-chsh -s /usr/bin/bash - change shell
+- cat /etc/shells - List of available shells on the system
 
-sudo - administrative privelages
+- chsh -s /usr/bin/bash - change shell
 
-apt-get install - install new packages
+- sudo - administrative privelages
 
-apt-get upgrade  - run upgrades on already installed packages
+- apt-get install - install new packages
 
-&& - run many commands in sequence e.g apt-get install && apt-get upgrade && ls -l
+- apt-get upgrade  - run upgrades on already installed packages
 
-!cat !grep  - recall full previous ran command starting with either cat, or grep
+- && - run many commands in sequence e.g apt-get install && apt-get upgrade && ls -l
+
+- !cat !grep  - recall full previous ran command starting with either cat, or grep
+
+```
 
 ***Linux directories***
 
