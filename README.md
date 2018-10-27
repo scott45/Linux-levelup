@@ -71,10 +71,13 @@ netstat -alx to see listening sockets.
 - tail - last 10 lines of a file.
 
 ***Cmd admin***
+
 mkdir dir_name - create a new directory
 
 cd dir_name - change to a directory
+
 touch file_name - create a new file
+
 vim file_name- open a file to either view or edit with vim
 mv old_file_name new_file_name - rename a file
 cp old_file_name new_file_name - copy content to a file
