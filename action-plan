@@ -1,0 +1,10 @@
+Scott understands the use of commands in a Unix environment and has experience writing scripts. 
+
+However, basic concepts of a Linux environment that he struggled with are a must for a DevOps Engineer. He could not correctly respond to questions based on linux such as the Linux directory structure and Linux directory ownership and permissions among others. 
+
+He also struggled for a larger part of the practical session attempting to fix an issue around privilege escalation and directory ownership. 
+
+Action plan 
+
+- Complete a short Linux course focused on linux essentials, file- system, directory structure and the command-line.
+- Go through Linux privilege escalation on user and administrative accounts. After this, you should be able to go through deployments understanding directory ownership etc. with very little or no troubles. 
