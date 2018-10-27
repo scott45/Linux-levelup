@@ -218,6 +218,39 @@ x — file can be executed (if it is a program)
 
 Use the ***chmod*** command to change permissions.
  
+If you are the owner of the file or are logged into the root account, you can change any permissions for the owner, group, and others.
+NB: Remember that file permissions are a security feature. Whenever you allow anyone else to read, write to, and execute files, you are increasing the risk of files being tampered with, altered, or deleted. As a rule, you should only grant read and write permissions to those who truly need them.
+
+-rw-rw-r-- 
+
+chmod o+w file
+-rw-rw-rw-
+
+chmod go-rw file
+-rw-------
+
+chmod a-rwx file
+---------- (no permissions for all)
+
+chmod u+rw foo.txt
+-rw-------
+
+***Identities***
+u — the user who owns the file (that is, the owner)
+g — the group to which the user belongs
+o — others (not the owner or the owner's group)
+a — everyone or all (u, g, and o)
+
+***Permissions***
+r — read access
+w — write access
+x — execute access
+
+***Actions***
++ — adds the permission
+- — removes the permission
+= — makes it the only permission
+
 Here is a list of user permissions and corrsponding values.
 
 code | Numerical value| Permissions
