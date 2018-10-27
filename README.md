@@ -253,6 +253,14 @@ x — execute access
 
 Here is a list of user permissions and corrsponding values.
 
+g+w — adds write access for the group
+o-rwx — removes all permissions for others
+u+x — allows the file owner to execute the file
+a+rw — allows everyone to read and write to the file
+ug+r — allows the owner and group to read the file
+g=rx — allows only the group to read and execute (not write)
+
+***file***
 code | Numerical value| Permissions
 ------------ | ------------- | ------------- 
 -rw------- |600 | only owner with read and write permissions.
@@ -262,6 +270,12 @@ code | Numerical value| Permissions
 -rwx--x--x | 711 | only owner with read and write permissions, group and others have execute only permissions.
 -rw-rw-rw- | 666 | all can read and write to the file.
 -rwxrwxrwx | 777 | all can read, write and execute to the file.
+
+***directory***
+code | Numerical value| Permissions
+------------ | ------------- | ------------- 
+drwx------ |700 | only user with read and write permissions in this directory.
+drwxr-xr-x | 755 | all can read the directory; users and groups have read and execute permissions.
 
 ## The MIT License (MIT)
 
