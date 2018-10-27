@@ -246,18 +246,24 @@ lsb_release -a Check linux distribution system.
 ***Globing*** 
 ```
 cp file*  - all instances 
+
 file? - single instance  
+
 rm file* - deletes all files starting with file
 ```
 
 ***archiving*** 
 ```
 .tar - archive
+
 .zip - zipped with zip algorithm
 
 tar xzf file.tar.gz 
+
 x - extract files from archive
+
 z - compressed or zipped
+
 f - file follows
 ```
 
@@ -282,9 +288,13 @@ f - file follows
 ***Good practices***
 ```
 - log in as normal user.
+
 - create separate user accounts. e.g sudo user add -m scott (add user scott)
+
 - limit each user’s authority.
+
 - sudo to invoke admin rights for a single command. 
+
 - su (switch user)
 ```
 
@@ -298,9 +308,13 @@ f - file follows
 
 ```
 For example:  -rw-rw-r-- 
+
 r — file can be read
+
 w — file can be written to
+
 x — file can be executed (if it is a program)
+
 -(dash) — specific permission has not been assigned
 ```
 
@@ -327,20 +341,33 @@ chmod u+rw foo.txt
 
 ```
 ***Identities***
-u — the user who owns the file (that is, the owner)
-g — the group to which the user belongs
-o — others (not the owner or the owner's group)
-a — everyone or all (u, g, and o)
+```
+- u — the user who owns the file (that is, the owner)
+
+- g — the group to which the user belongs
+
+- o — others (not the owner or the owner's group)
+
+- a — everyone or all (u, g, and o)
+```
 
 ***Permissions***
-r — read access
-w — write access
-x — execute access
+```
+- r — read access
+
+- w — write access 
+
+- x — execute access
+```
 
 ***Actions***
-+ — adds the permission
-- — removes the permission
-= — makes it the only permission
+```
+- + — adds the permission
+
+- - — removes the permission
+
+- = — makes it the only permission
+```
 
 Here is a list of user permissions and corrsponding values.
 
