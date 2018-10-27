@@ -205,6 +205,30 @@ Good practices
 - sudo to invoke admin rights for a single command. 
 - su (switch user)
 
+Reading, writing, and executing are the three main settings in permissions.
+users are placed into a group when their accounts are created.
+All files and directories are "owned" by the person who created them.
+
+The first column shows current permissions; it has ten slots. The first slot represents the type of file. The remaining nine slots are actually three sets of permissions for three different categories of users.
+For example:  -rw-rw-r-- 
+r — file can be read
+w — file can be written to
+x — file can be executed (if it is a program)
+-(dash) — specific permission has not been assigned
+
+Use the ***chmod*** command to change permissions.
+ 
+Here is a list of user permissions and corrsponding values.
+
+code | Numerical value| Permissions
+------------ | ------------- | ------------- 
+-rw------- |600 | only owner with read and write permissions.
+-rw-r--r-- | 644 | only owner with read and write permissions, group and others have read only permissions.
+-rwx------ | 700 | only owner with read and write permissions. group and others have no permissions. 
+-rwxr-xr-x | 755 | only owner with read and write permissions, group and others have read and execute only.
+-rwx--x--x | 711 | only owner with read and write permissions, group and others have execute only permissions.
+-rw-rw-rw- | 666 | all can read and write to the file.
+-rwxrwxrwx | 777 | all can read, write and execute to the file.
 
 ## The MIT License (MIT)
 
