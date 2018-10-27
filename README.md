@@ -79,20 +79,32 @@ cd dir_name - change to a directory
 touch file_name - create a new file
 
 vim file_name- open a file to either view or edit with vim
+
 mv old_file_name new_file_name - rename a file
+
 cp old_file_name new_file_name - copy content to a file
+
 date > file_name  - append to a file
+
 date >> file_name  - Overwrite a file
 ps  - see running processes
+
 ps aux | grep process_name - filter a particular running process 
 df -h  - check disk space usage
 date - check date (day, time, year, timezone)
+
 time - check current time
+
 cd .. - Go back a single step to previous directory
+
 cd ~  - go to home directory
-man 'command' - checkout details about a manual page. 
+
+man 'command' - checkout details about a manual page.
+
 sort - organizing output in order
+
 sort -r  - organize output in reverse order
+
 ls  - directory listings
 rm - delete
 rmdir - delete dir
