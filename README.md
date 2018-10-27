@@ -72,6 +72,7 @@ netstat -alx to see listening sockets.
 
 ***Cmd admin***
 mkdir dir_name - create a new directory
+
 cd dir_name - change to a directory
 touch file_name - create a new file
 vim file_name- open a file to either view or edit with vim
