@@ -10,7 +10,7 @@ Undertaken as fullfillment of the action plan to complete a short Linux course f
 
 ## Course;
 
-Introduction to the LPI Linux essentials certification (010 - 150) (by David Clinton on pluralsight)
+> Introduction to the LPI Linux essentials certification (010 - 150) (by David Clinton on pluralsight)
 
 ## Modules;
 
@@ -389,13 +389,13 @@ g=rx — allows only the group to read and execute (not write)
 
 code | Numerical value| Permissions
 ------------ | ------------- | ------------- 
--rw------- |600 | only owner with read and write permissions.
--rw-r--r-- | 644 | only owner with read and write permissions, group and others have read only permissions.
--rwx------ | 700 | only owner with read and write permissions. group and others have no permissions. 
--rwxr-xr-x | 755 | only owner with read and write permissions, group and others have read and execute only.
--rwx--x--x | 711 | only owner with read and write permissions, group and others have execute only permissions.
--rw-rw-rw- | 666 | all can read and write to the file.
--rwxrwxrwx | 777 | all can read, write and execute to the file.
+-rw-------   |600 | only owner with read and write permissions.
+-rw-r--r--   | 644 | only owner with read and write permissions, group and others have read only permissions.
+-rwx------   | 700 | only owner with read and write permissions. group and others have no permissions. 
+-rwxr-xr-x   | 755 | only owner with read and write permissions, group and others have read and execute only.
+-rwx--x--x   | 711 | only owner with read and write permissions, group and others have execute only permissions.
+-rw-rw-rw-   | 666 | all can read and write to the file.
+-rwxrwxrwx   | 777 | all can read, write and execute to the file.
 
 ***directory***
 
