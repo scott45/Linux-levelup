@@ -162,6 +162,8 @@ lsb_release -a Check linux distribution system.
 
 ***Linux directories***
 
+```
+
 /   
 - Root directory. Everything on the linux system located here.
 
@@ -217,6 +219,8 @@ lsb_release -a Check linux distribution system.
 
 /srv
 - srv stands for service and contains server specific services related data. e.g /srv/cvs contains CVS related data.
+
+```
 
 ## Power of the Command line;
 
