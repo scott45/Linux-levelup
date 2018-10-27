@@ -342,41 +342,48 @@ chmod u+rw foo.txt
 ```
 ***Identities***
 ```
-- u — the user who owns the file (that is, the owner)
+u — the user who owns the file (that is, the owner)
 
-- g — the group to which the user belongs
+g — the group to which the user belongs
 
-- o — others (not the owner or the owner's group)
+o — others (not the owner or the owner's group)
 
-- a — everyone or all (u, g, and o)
+a — everyone or all (u, g, and o)
 ```
 
 ***Permissions***
 ```
-- r — read access
+r — read access
 
-- w — write access 
+w — write access 
 
-- x — execute access
+x — execute access
 ```
 
 ***Actions***
 ```
-- + — adds the permission
++ — adds the permission
 
-- - — removes the permission
+- — removes the permission
 
-- = — makes it the only permission
+= — makes it the only permission
 ```
 
 Here is a list of user permissions and corrsponding values.
 
+```
 g+w — adds write access for the group
+
 o-rwx — removes all permissions for others
+
 u+x — allows the file owner to execute the file
+
 a+rw — allows everyone to read and write to the file
+
 ug+r — allows the owner and group to read the file
+
 g=rx — allows only the group to read and execute (not write)
+```
 
 ***file***
 code | Numerical value| Permissions
@@ -397,7 +404,7 @@ drwxr-xr-x | 755 | all can read the directory; users and groups have read and ex
 
 ## The MIT License (MIT)
 
-Copyright (c) 2017 [BUSINGE SCOTT [ANDELA]]
+Copyright (c) 2018 [BUSINGE SCOTT [ANDELA]]
 
 > Permission is hereby granted, free of charge, to any person obtaining a copy
 > of this software and associated documentation files (the "Software"), to deal
