@@ -80,14 +80,21 @@ lsb_release -a Check linux distribution system.
 
 ***Networking***
 ```
-ip route show - route
-ip addr show - ip config
-ipv6 / ipv4 128 bit and 32 bit addresses
-netstat -i  - interface info
-netstat -r - route info
-DNS - map ip figures to human readable language
-host name - ip to dns 
-nslookup - check IP address that's mapped to a domain name
+- ip route show - route
+
+- ip addr show - ip config
+
+- ipv6 / ipv4 128 bit and 32 bit addresses
+
+- netstat -i  - interface info
+
+- netstat -r - route info
+
+- DNS - map ip figures to human readable language
+
+- host name - ip to dns
+
+- nslookup - check IP address that's mapped to a domain name
 ```
 
 ***Text and file manipulation***
@@ -254,41 +261,56 @@ z - compressed or zipped
 f - file follows
 ```
 
-***Bash Scripting*** 
+> Bash Scripting 
+
 - command line syntax and simple design  as prerequisite
+
 - functional in nature (inputs, variables and control structures)
+
 - shebang (#!/bin/bash) binary bash
 
-***list packages***
- yum list 
- apt list 
- dpkg list
+> list packages
+
+- yum list 
+
+- apt list 
+
+- dpkg list
 
 ## Security and file permissions 
 
-Good practices
+***Good practices***
+```
 - log in as normal user.
 - create separate user accounts. e.g sudo user add -m scott (add user scott)
 - limit each user’s authority.
 - sudo to invoke admin rights for a single command. 
 - su (switch user)
+```
 
-Reading, writing, and executing are the three main settings in permissions.
-users are placed into a group when their accounts are created.
-All files and directories are "owned" by the person who created them.
+- Reading, writing, and executing are the three main settings in permissions.
 
-The first column shows current permissions; it has ten slots. The first slot represents the type of file. The remaining nine slots are actually three sets of permissions for three different categories of users.
+- users are placed into a group when their accounts are created.
+
+- All files and directories are "owned" by the person who created them.
+
+- The first column shows current permissions; it has ten slots. The first slot represents the type of file. The remaining nine slots are actually three sets of permissions for three different categories of users.
+
+```
 For example:  -rw-rw-r-- 
 r — file can be read
 w — file can be written to
 x — file can be executed (if it is a program)
 -(dash) — specific permission has not been assigned
+```
 
-Use the ***chmod*** command to change permissions.
+- Use the ***chmod*** command to change permissions.
  
-If you are the owner of the file or are logged into the root account, you can change any permissions for the owner, group, and others.
-NB: Remember that file permissions are a security feature. Whenever you allow anyone else to read, write to, and execute files, you are increasing the risk of files being tampered with, altered, or deleted. As a rule, you should only grant read and write permissions to those who truly need them.
+- If you are the owner of the file or are logged into the root account, you can change any permissions for the owner, group, and others.
 
+- NB: Remember that file permissions are a security feature. Whenever you allow anyone else to read, write to, and execute files, you are increasing the risk of files being tampered with, altered, or deleted. As a rule, you should only grant read and write permissions to those who truly need them.
+
+```
 -rw-rw-r-- 
 
 chmod o+w file
@@ -303,6 +325,7 @@ chmod a-rwx file
 chmod u+rw foo.txt
 -rw-------
 
+```
 ***Identities***
 u — the user who owns the file (that is, the owner)
 g — the group to which the user belongs
