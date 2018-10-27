@@ -52,22 +52,37 @@ Basic / fundamental commands
 lsb_release -a Check linux distribution system.
 
 ***Monitoring and networking***
+
 vmstat to get memory details.
+
 vmstat -S M to see memory usage in mb's.
+
 vmstat -a to see active / inactive memory.
+
 uptime to see system load (cpu) 1min, 5mins, 15mins.
+
 who to see logged in users and consoles (names and tty.
+
 whoami - show current logged in user. (name)
+
 top to display and update sorted info about processes
+
 netstat -alt to see listening tcp ports.
+
 netstat -alu to see listening udp ports.
+
 netstat -alx to see listening sockets.
 
 ***Text and file manipulation***
+
 - grep to filter.
+
 - cat to read files sequentially.
+
 - less to paging data of a file.
+
 - head - first 10 lines of a file.
+
 - tail - last 10 lines of a file.
 
 ***Cmd admin***
@@ -87,10 +102,13 @@ cp old_file_name new_file_name - copy content to a file
 date > file_name  - append to a file
 
 date >> file_name  - Overwrite a file
+
 ps  - see running processes
 
 ps aux | grep process_name - filter a particular running process 
+
 df -h  - check disk space usage
+
 date - check date (day, time, year, timezone)
 
 time - check current time
@@ -106,16 +124,27 @@ sort - organizing output in order
 sort -r  - organize output in reverse order
 
 ls  - directory listings
+
 rm - delete
+
 rmdir - delete dir
+
 find - locate files
+
 grep - filter
+
 cat /etc/shells - List of available shells on the system
+
 chsh -s /usr/bin/bash - change shell
+
 sudo - administrative privelages
+
 apt-get install - install new packages
+
 apt-get upgrade  - run upgrades on already installed packages
+
 && - run many commands in sequence e.g apt-get install && apt-get upgrade && ls -l
+
 !cat !grep  - recall full previous ran command starting with either cat, or grep
 
 ***Linux directories***
