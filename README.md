@@ -19,7 +19,7 @@ Undertaken as fullfillment of the action plan to complete a short Linux course f
  - Power of the Command line
  - Security and file permissions 
 
-## Introduction to Linux Operating system;
+### Introduction to Linux Operating system;
 
 ***Advantages of linux***
 - Cheaper to own (open source)
