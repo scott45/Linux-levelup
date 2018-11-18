@@ -4,15 +4,15 @@
 # Linux Environment 
 
 
-## Introduction;
+## Introduction
 
 Undertaken as fullfillment of the action plan to complete a short Linux course focused on linux essentials, file- system, directory structure, the command-line and go through Linux privilege escalation on user and administrative accounts.
 
-## Course;
+## Course
 
 > Introduction to the LPI Linux essentials certification (010 - 150) (by David Clinton on pluralsight)
 
-## Modules;
+## Modules
 
  - Introduction to Linux Operating system
  - Finding your way around the Linux system / Linux directories
