@@ -3,7 +3,6 @@
 
 # Linux Environment 
 
-
 ## Introduction;
 
 Undertaken as fullfillment of the action plan to complete a short Linux course focused on linux essentials, file- system, directory structure, the command-line and go through Linux privilege escalation on user and administrative accounts.
