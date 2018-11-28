@@ -178,7 +178,7 @@ lsb_release -a Check linux distribution system.
 
 ```
 
-***Linux directories***
+***Linux directory structure***
 
 ```
 
