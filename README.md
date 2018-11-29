@@ -11,7 +11,7 @@ Undertaken as fullfillment of the action plan to complete a short Linux course f
 
 > Introduction to the LPI Linux essentials certification (010 - 150) (by David Clinton on pluralsight)
 
-## Modules
+## Course Modules
 
  - Introduction to Linux Operating system
  - Finding your way around the Linux system / Linux directories
