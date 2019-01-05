@@ -51,7 +51,7 @@ Basic / fundamental commands
 
 lsb_release -a Check linux distribution system.
 
-***Monitoring and networking***
+***Monitoring and Networking***
 
 ```
 
