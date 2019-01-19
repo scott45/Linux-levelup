@@ -3,7 +3,7 @@
 
 # Linux Environment Fundamentals
 
-## Introduction;
+## Introduction
 
 Undertaken as fullfillment of the action plan to complete a short Linux course focused on linux essentials, file- system, directory structure, the command-line and go through Linux privilege escalation on user and administrative accounts.
 
@@ -18,7 +18,7 @@ Undertaken as fullfillment of the action plan to complete a short Linux course f
  - Power of the Command line
  - Security and file permissions 
 
-## Introduction to Linux Operating system;
+## Introduction to Linux Operating system
 
 ***Advantages of linux***
 - Cheaper to own (open source)
@@ -45,7 +45,7 @@ Undertaken as fullfillment of the action plan to complete a short Linux course f
 -  **apt-get** for online packages and **dpkg** on local packages for Ubuntu, debian, mint.
 -  **yum** for online packages and **RPM** for local packages access on Redhat, Fedora, Amazon linux.
 
-## Finding your way around the Linux system / Linux directories;
+## Finding your way around the Linux system / Linux directories
 
 Basic / fundamental commands
 
@@ -240,7 +240,7 @@ lsb_release -a Check linux distribution system.
 
 ```
 
-## Power of the Command line;
+## Power of the Command line
 
 ***Globing*** 
 ```
