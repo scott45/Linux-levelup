@@ -1,7 +1,7 @@
 [![Businge Scott](https://img.shields.io/badge/Businge%20Scott-Linux-green.svg)]()
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-# Linux Environment 
+# Linux Environment Fundamentals
 
 ## Introduction;
 
